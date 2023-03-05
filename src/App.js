@@ -6,14 +6,9 @@ function App() {
   return (
     <div className="App">
      <Router><header>
-      <ul>
-        <li>
           <Link to='/'>Home</Link>
-        </li>
-        <li>
+        <br/>
           <Link to='/library'>Readly</Link>
-        </li>
-      </ul>
      </header>
      <main>
       <Routes>

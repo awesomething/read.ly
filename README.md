@@ -38,6 +38,7 @@ Go to [https://supabase.com](https://supabase.com/) to view it in your browser a
 
 The purpose for changing the config.json to config.js is to use our env file for our secrets and use process.env inside the config.js file.
 Next, wrap the object and add a module.exports at the top like so module.exports = { ... }:
+``` json
 module.exports = {
   development: {
     username: process.env.DB_USERNAME,
@@ -62,7 +63,7 @@ module.exports = {
     dialect: "postgres"
   }
 }
-
+```
 
 ### Under models folder
 

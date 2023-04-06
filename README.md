@@ -72,19 +72,19 @@ const config = require(__dirname + '/../config/config.js')[env];
 ### Get your env values from supabase
 
 Head to your settings here: [https://supabase.com](https://supabase.com/) and click on Database or Databse settings and copy these values
-USERNAME=postgres
-PASSWORD=++++++++++++
-NAME=postgres
-HOST=
-PORT=
+* USERNAME=postgres
+* PASSWORD=++++++++++++
+* NAME=postgres
+* HOST=
+* PORT=
 
 ### In your .env file, add the following:
 
-DB_USERNAME=postgres
-DB_PASSWORD=++++++++++++
-DB_NAME=postgres
-DB_HOST=---------------------.supabase.co
-PORT=8000
+* DB_USERNAME=postgres
+* DB_PASSWORD=++++++++++++
+* DB_NAME=postgres
+* DB_HOST=---------------------.supabase.co
+* PORT=8000
 
 
 ### Generate models
